@@ -37,7 +37,7 @@ img {
   display: block;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -53,7 +53,6 @@ a{
 .header-container {
   padding-left: 28px;
   padding-right: 28px;
-  
 }
 .header-nav {
   display: flex;
@@ -64,10 +63,9 @@ a{
   color: #28a745;
   font-size: 35px;
   line-height: 1.2;
-  
 }
 .part-header-logo {
-  color: #FFF;
+  color: #fff;
 }
 .header-list {
   display: flex;
@@ -81,7 +79,37 @@ a{
   padding-bottom: 20px;
 }
 .header-link {
-  color: #FFF;
-font-size: 18px;
-line-height: 1.56;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* main */
+.hero {
+  padding-top: 280px;
+  padding-bottom: 280px;
+  background-color: rgb(66, 20, 184);
+}
+.container {
+}
+.hero-container {
+  text-align: center;
+}
+.main-title {
+  color: #E9E9E9;
+text-align: center;
+font-size: 55px;
+font-weight: 300;
+line-height: 1.2; 
+margin-bottom: 24px;
+}
+.hero-description {
+  color: #E9E9E9;
+text-align: center;
+font-size: 22px;
+line-height: 1.67;
+margin-bottom: 32px;;
+}
+.hero-btn {
+
 }
