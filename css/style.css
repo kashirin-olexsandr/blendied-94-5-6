@@ -47,11 +47,9 @@ a {
 }
 
 .header {
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-  );
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6));
   position: fixed;
   top: 0;
   width: 100%;
@@ -61,6 +59,7 @@ a {
   padding-left: 28px;
   padding-right: 28px;
 }
+
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -79,20 +78,24 @@ a {
 .main-icon {
   fill: #28a745;
 }
+
 .part-header-logo {
   color: #fff;
 }
+
 .header-list {
   display: flex;
   gap: 40px;
   align-items: center;
 }
-.list {
-}
+
+.list {}
+
 .header-list-item {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .header-link {
   color: #fff;
   font-size: 18px;
@@ -103,21 +106,24 @@ a {
 .hero {
   padding-top: 280px;
   padding-bottom: 280px;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+      rgba(0, 0, 0, 0.5) 100%),
     url(../images/image-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .container {
+  margin: 0 auto;
+  max-width: 1360px;
 }
+
 .hero-container {
   text-align: center;
 }
+
 .main-title {
   color: #e9e9e9;
   text-align: center;
@@ -126,6 +132,7 @@ a {
   line-height: 1.2;
   margin-bottom: 24px;
 }
+
 .hero-description {
   color: #e9e9e9;
   text-align: center;
@@ -133,6 +140,25 @@ a {
   line-height: 1.67;
   margin-bottom: 32px;
 }
+
+.hero-btn {}
+
+.about {
+
+  background-color: #28A745;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-image {}
+
+.about-wrap-right {
+  padding: 80px 64px 80px 20px;
+
+}
+
 .hero-btn {
   width: 165px;
   height: 48px;
@@ -142,7 +168,8 @@ a {
   color: #fff;
   text-align: center;
   font-size: 18px;
-  line-height: 156.4; /* 156.444% */
+  line-height: 156.4;
+  /* 156.444% */
   background-color: #28a745;
   display: flex;
   justify-content: center;
@@ -153,4 +180,43 @@ a {
 
 .icon-btn {
   fill: #ffffff;
+}
+
+.about-subtitle {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.64;
+
+  margin-bottom: 8px;
+}
+
+.about-title {
+  color: #FFF;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.26;
+
+  margin-bottom: 24px;
+}
+
+.about-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+
+  margin-bottom: 24px;
+}
+
+.about-btn {
+  padding: 11px 35px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
