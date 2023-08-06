@@ -48,36 +48,44 @@ a {
 
 .header {
   background-color: rgb(66, 20, 184);
+
+  background-color: #28A745;
 }
 
 .header-container {
   padding-left: 28px;
   padding-right: 28px;
 }
+
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header-logo {
   color: #28a745;
   font-size: 35px;
   line-height: 1.2;
 }
+
 .part-header-logo {
   color: #fff;
 }
+
 .header-list {
   display: flex;
   gap: 40px;
   align-items: center;
 }
-.list {
-}
+
+.list {}
+
 .header-list-item {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .header-link {
   color: #fff;
   font-size: 18px;
@@ -90,26 +98,87 @@ a {
   padding-bottom: 280px;
   background-color: rgb(66, 20, 184);
 }
+
 .container {
+  margin: 0 auto;
+  max-width: 1360px;
 }
+
 .hero-container {
   text-align: center;
 }
+
 .main-title {
   color: #E9E9E9;
-text-align: center;
-font-size: 55px;
-font-weight: 300;
-line-height: 1.2; 
-margin-bottom: 24px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 24px;
 }
+
 .hero-description {
   color: #E9E9E9;
-text-align: center;
-font-size: 22px;
-line-height: 1.67;
-margin-bottom: 32px;;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.67;
+  margin-bottom: 32px;
+  ;
 }
-.hero-btn {
 
+.hero-btn {}
+
+.about {
+
+  background-color: #28A745;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-image {}
+
+.about-wrap-right {
+  padding: 80px 64px 80px 20px;
+
+}
+
+.about-subtitle {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.64;
+
+  margin-bottom: 8px;
+}
+
+.about-title {
+  color: #FFF;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.26;
+
+  margin-bottom: 24px;
+}
+
+.about-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+
+  margin-bottom: 24px;
+}
+
+.about-btn {
+  padding: 11px 35px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
