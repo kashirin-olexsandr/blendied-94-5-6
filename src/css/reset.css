@@ -1,0 +1,47 @@
+:root {
+  --light-color-text: #fff;
+  --dark-color-text: #333;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}

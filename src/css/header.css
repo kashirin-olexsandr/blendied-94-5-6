@@ -1,0 +1,55 @@
+.header {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6));
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-container {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: #28a745;
+  font-size: 35px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-icon {
+  fill: #28a745;
+}
+
+.part-header-logo {
+  color: #fff;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.list {}
+
+.header-list-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.56;
+}
